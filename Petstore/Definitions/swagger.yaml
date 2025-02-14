@@ -103,7 +103,7 @@ definitions:
         type: string
       id:
         format: int64
-        type: integer
+        type: string
       lastName:
         type: string
       password:
