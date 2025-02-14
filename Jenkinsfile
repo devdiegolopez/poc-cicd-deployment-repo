@@ -25,7 +25,7 @@ pipeline {
             steps {
                 sh """
                 apictl login dev -u admin -p admin
-                apictl vcs deploy -e live
+                apictl vcs deploy -e dev
                 """
             }
         }
